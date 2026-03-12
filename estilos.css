@@ -1,32 +1,36 @@
+*{
+    margin: 0;
+    padding: 5px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}
 .hero-section {
-    background: linear-gradient(135deg, #f0449a 25%, #ec2828 100%);
-    color: rgb(59, 24, 24);
-    padding: 100px 0;
+    background-image: url(perut.jpg);
+    border-radius: 10px;
+    opacity: 0.6;
+    padding: 100px;
+    color: rgb(228, 34, 34);
 }
-h2{
-    color: #2c3e50;
-    text-align: center;
-    margin-bottom: 30px;
-    font-family: 24px;
+.maincontainer{
+    border: 2px solid #d6e3ec;
+    border-style: dotted;
+    padding: 5px;
+    max-width: 600px;
+    margin: 0 auto;
+    color: rgb(0, 0, 0);
 }
-.ficha{
-    background-color: white;
-    border-radius: 15px;
-    padding: 30px;
-    box-shadow: 0 10px 30px rgba(0,0,0,0.3);
-    max-width: 500px;
-    width: 100%;
+.mb-3{
+    border-radius: 2px;
+    border-left: 3px solid #f02731;
+    border-left-style: solid;
 }
 
-campo{
-    width: 100%;
-    padding: 14px;
-    background: linear-gradient(135deg,#2c3e50 0%,#3498db 100%);
-    color: white;
-    border: none;
-    border-radius: 8px;
-    font-size: 16px;
-    font-weight: bold;
-    cursor: pointer;
-    transition: transform 0.2s;
+.d-flex{
+    border-radius: 2px;
+    border-right: 3px solid #f02731;
+    border-right-style: ridge;
+}
+img{
+    content-visibility: auto;
+    object-fit: scale-down;
+    object-position: right;
 }
